@@ -1,0 +1,474 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* TESTE */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.clear{
+  clear: both;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.logo{
+  display: flex;
+  width: 308px;
+  height: 142px;
+  object-position: left;
+  margin-left: 20%;
+}
+
+.opcoesHeader{
+  float: right;
+  margin-right: 5%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  padding: 3vh;
+  font-size: 24px;
+  font-weight: none;
+}
+
+nav a {
+  color: #FFC400;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+}
+
+nav li a.checked::after{
+  content: " ";
+  width: 101%;
+  height: 4px;
+  font-weight: bold;
+  background-color: #FFC400;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+/*
+nav li a.checked::after{
+  width: 101%;
+}
+*/
+
+nav li.checked1::after{
+ font-weight: bold;
+}
+
+.AbaixoDoHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  margin-top: 3%;
+}
+.ClienteSatisfeito {
+  text-align: center;
+} 
+.ClienteSatisfeito img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.tituloDesconto {
+  text-align: center;
+  margin-right: 12%;
+  margin-top: 7%;
+}
+
+.tituloDesconto span{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textoDesconto{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: left;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.boxButton {
+  text-align: center;
+}
+
+.buttonSaibaAqui{
+  background: linear-gradient(90deg, #FFC400 0%, #FA9C05 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none; 
+  color: white; 
+  font-size: 40px;
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.buttonSaibaAqui:hover{
+  transform: scale(1.1);
+}
+
+.TresImagens {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.TresImagens img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.imagem1{
+  border-radius: 10px;
+  text-align: center;
+  width: 32%;
+}
+
+.imagem2{
+  border-radius: 10px;
+  text-align: center;
+  width: 32%;
+}
+
+.imagem3{
+  border-radius: 10px;
+  text-align: center;
+  width: 32%;
+}
+
+.COMPROMETIMENTO{
+  font-style: normal;
+  margin-top: 12px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFC400;
+}
+
+.CONFIANÇA{
+  font-style: normal;
+  margin-top: 12px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFC400;
+}
+
+.SUPORTE{
+  font-style: normal;
+  margin-top: 12px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFC400;
+}
+
+
+.p1{
+  font-style: normal;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.p2{
+  font-style: normal;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+
+.p3{
+  font-style: normal;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.fraseImpacto1{
+  margin-top: 3%;
+}
+
+.fraseImpacto1 h1{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #FFC400;
+}
+
+.containerAlternado{
+  margin-top: 2%;
+}
+
+.flexMosaico1{
+  display: flex;
+}
+
+.itemMosaico1{
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+  height: 350px;
+}
+
+.itemMosaico2{
+  position: relative;
+  padding: 40px;
+  width: 40%;
+  background: linear-gradient(180deg, #FA9C05 0%, #FFC400 100%);
+}
+
+.itemMosaico2 p{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.itemMosaico2 li a{
+  color: black;
+}
+
+.itemMosaico2 li{
+  position: absolute;
+  list-style: none;
+  width: 133px;
+  font-size: 24px;
+  font-weight: none;
+}
+
+.SaibaAqui{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+.SaibaAqui2{
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 350px;
+}
+
+.SaibaAqui3{
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 350px;
+}
+
+.imgBlur{
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 572px;
+  align-items: center;
+}
+
+.imgBlur h1{
+  max-width: 900px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 180px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 68px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 20px #000000;
+}
+
+.boxButtonServico{
+  position: absolute;
+  text-align: center;
+}
+
+.buttonCliqueAqui{
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+  font-style: normal;
+  margin-top: 350px;
+  margin-left: 480px;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 68px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  background: #000000;
+  height: 85px;
+  width: 343px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttonCliqueAqui:hover{
+  transform: scale(1.1);
+}
+
+.sessaoCards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  padding: 3%;
+}
+
+.containerCards{
+  margin: 0 auto;
+  width: 270px;
+  height: 400px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: .5s;
+  margin-bottom: 5%;
+}
+
+.containerCards:hover{
+  background: #FA9C05;
+  box-shadow: 0px 4px 12px 5px #FFC400;
+}
+.cardsImg {
+  text-align: center;
+}
+.cardsImg img{
+  max-width: 100%;
+  object-fit: cover;
+  padding-top: 1%;
+}
+
+.textoCard{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  color: black;
+  transition: .5s;
+  text-align: center;
+}
+
+.textoCard p:hover{
+  color: white;
+}
+
+.containerRodape{
+ margin-top: 3%;
+ background: linear-gradient(180deg, #FFC400 0%, #FA9C05 85.5%);
+ text-align: center;
+}
+
+.boxRodape{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.boxRodape img{
+  max-width: 100%;
+  object-fit: cover;
+}
+.containerRodape span {
+  color: #fff;
+  border-top: 2px solid #fff;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* .trilhaPatas{
+  position: absolute;
+  height: 711px;
+}
+
+.logoRodape{
+  position: absolute;
+  width: 308px;
+  height: 142px;
+  top: 80px;
+  left: 120px;
+}
+
+.mapa{
+  position: absolute;
+  width: 546px;
+  height: 292px;
+  left: 1000px;
+  top: 94px;
+}
+
+.line02{
+  position: absolute;
+}
+
+ */
+
+
+

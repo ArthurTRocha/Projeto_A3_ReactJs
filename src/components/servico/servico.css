@@ -1,0 +1,158 @@
+.sectionUm {
+    margin-top: 5%;
+}
+.sectionFinalUm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagemSectionUm img {
+    max-width: 100%;
+    object-fit: cover;
+    padding-right: 50px;
+}
+.textoImagemSectionUm_ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        h1 {
+            color: #FFC400;
+            font-size: 40px;
+            margin-right: 2%;
+        }
+}
+
+.sectionDois {
+    background-color: #FF9900;
+    border-radius: 4vh;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 2%;
+    /* text-shadow: 10px 2px 3px #000; */
+    padding-bottom: 1%;
+}
+.sectionDoisLadoE {
+    input {
+        width: 100%;
+        height: 30px;
+        border-radius: 2vh;
+        border: none;
+    }
+    select {
+        width: 100%;
+        height: 30px;
+        border-radius: 2vh;
+        border: none;
+    }
+    h4 {
+        padding-top: 10%;
+    }
+}
+.sectionDoisCentro {
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+        text-align: center;
+    }
+    img {
+        object-fit: cover;
+        max-width: 100%;
+    }
+    button {
+        background-color: #FFC400;
+        border: none;
+        width: 110%;
+        border-radius: 3vh;
+        border: 8px #000;
+        cursor: pointer;
+        margin-top: 5%;
+        transition: 0.5s;
+    }
+    button:hover {
+        background-color: #0D79DD;
+    }
+}
+.sectionDoisLadoD {
+    input {
+        width: 100%;
+        height: 30px;
+        border-radius: 2vh;
+        border: none;
+    }
+    select {
+        width: 100%;
+        height: 30px;
+        border-radius: 2vh;
+        border: none;
+    }
+    h4 {
+        padding-top: 10%;
+    }
+}
+.sectionDoisLadoD h4,
+.sectionDoisLadoD input,
+.sectionDoisLadoE h4,
+.sectionDoisLadoE input {
+    margin: 0;
+}
+.textoSectionFinalUm {
+    width: 75%;
+}
+.sectionDoisLadoDD {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        object-fit: cover;
+        max-width: 100%;
+    }
+    input {
+        width: 100%;
+        height: 30px;
+        border-radius: 2vh;
+        border: none;
+        margin-top: 5%;
+    }
+}
+.sectionDoiss {
+    background-color: #FF9900;
+    border-radius: 4vh;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 2%;
+    /* text-shadow: 10px 2px 3px #000; */
+    padding-bottom: 1%;
+    gap: 8%;
+}
+.inputGrandeSectionDoisLadoE input{
+    width: 150%;
+    height: 130px;
+}
+.buttonSectionCentral {
+    margin-top: auto;
+    button {
+        background-color: #FFC400;
+        border: none;
+        width: 150%;
+        border-radius: 3vh;
+        border: 8px #000;
+        cursor: pointer;
+        margin-top: 5%;
+        transition: 0.5s;
+    }
+    button:hover {
+        background-color: #0D79DD;
+    }
+}

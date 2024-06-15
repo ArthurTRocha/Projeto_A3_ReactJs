@@ -1,0 +1,85 @@
+.conteinerLogin {
+    background-image: url("../../assets/images/planofundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.conteinerLogin {
+    background-color: #4a5252;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.conteinerLogin h1,
+.conteinerLogin p{
+    color: #ffff;
+    text-align: center;
+}
+.inputsLogin {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 100%;
+    color: #fff;
+}
+.inputsLogin label {
+    margin-bottom: 1%;
+}
+#inputEmailLogin {
+    margin-bottom: 3%;
+}
+.inputsLogin input {
+    width: 70%;
+    height: 40px;
+    border-radius: 2vh;
+    border: none;
+    background-color: #293030;
+    color: #fff;
+    padding-left: 2%;
+}
+.inputsLogin a {
+    text-decoration: none;
+    color: #5CE1E6;
+}
+.iamgemLogin {
+    width: 40%;
+}
+.iamgemLogin img {
+    max-width: 90%;
+    object-fit: cover;
+}
+.unirImagemInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.buttonEnviarLogin {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.buttonEnviarLogin {
+    margin-left: 10%;
+}
+.buttonEnviarLogin a {
+    text-decoration: none;
+    color: #5CE1E6;
+}
+.buttonEnviarLogin button {
+    background-color: #447FB7;
+    border-radius: 3vh;
+    width: 30%;
+    border: none;
+    color: #fff;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    cursor: pointer;
+}
+.buttonEnviarLogin button:hover {
+    transform: scale(1.1);
+}
