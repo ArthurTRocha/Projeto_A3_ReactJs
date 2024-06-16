@@ -37,7 +37,7 @@
 .logo{
   display: flex;
   width: 308px;
-  height: 142px;
+  height: 100px;
   object-position: left;
   margin-left: 20%;
 }
@@ -148,7 +148,10 @@ nav li.checked1::after{
   border-radius: 25px;
   transition: all 0.3s ease;
 }
-
+.buttonSaibaAqui a {
+  color: #000000;
+  text-decoration: none;
+}
 .buttonSaibaAqui:hover{
   transform: scale(1.1);
 }
@@ -369,7 +372,10 @@ nav li.checked1::after{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
+.buttonCliqueAqui a {
+  text-decoration: none;
+  color: #fff;
+}
 .buttonCliqueAqui:hover{
   transform: scale(1.1);
 }

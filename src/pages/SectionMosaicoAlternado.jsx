@@ -26,7 +26,7 @@ const SectionMosaicoAlternado = () => (
             <p>{mosaico.text}</p>
             <div className="botaoSaibaAqui">
               <ul className={`SaibaAqui${index > 2 ? index - 2 : ''}`}>
-                <li><a href="#">Saiba Mais</a></li>
+                <li><a href="/servico">Saiba Mais</a></li>
               </ul>
             </div>
           </div>

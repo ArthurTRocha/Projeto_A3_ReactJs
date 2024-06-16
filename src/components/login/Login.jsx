@@ -17,7 +17,7 @@ function Login() {
 
           <label htmlFor="inputPassword">Senha</label>
           <input type="password" id="inputPassword" />
-          <a href="#">Esqueceu a senha?</a>
+          <a href="/paginad">Esqueceu a senha?</a>
         </div>
 
         <div className="iamgemLogin">
@@ -27,7 +27,8 @@ function Login() {
 
       <div className="buttonEnviarLogin">
         <p>Precisa de uma conta? <a href="/paginaderegistro">Inscreva-se</a></p>
-        <button><h1>Login</h1></button>
+        <button ><h1>Login</h1></button>
+        {/* {mensagem && <h3>{mensagem}</h3>} */}
       </div>
     </div>
     </div>

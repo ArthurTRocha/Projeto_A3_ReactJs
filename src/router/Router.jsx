@@ -10,6 +10,8 @@ import Login from "../components/login/Login";
 // import SectionTresImagens from "../pages/SectionTresImagens"
 import PaginaDeRegistro from "../components/paginaregistro/PaginaRegistro";
 import Servico from "../components/servico/Servico";
+import Suporte from "../pages/Suporte";
+import PaginaD from "../pages/PaginaD";
 
 
 const App = () => {
@@ -27,6 +29,8 @@ const App = () => {
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/paginaderegistro" element={<PaginaDeRegistro/>} />
         <Route path="/Servico" element={<Servico/>} />
+        <Route path="/Suporte" element={<Suporte/>} />
+        <Route path="/PaginaD" element={<PaginaD/>} />
         <Route path="/Login" element={<Login/>} />
       </Routes>
     </Router>

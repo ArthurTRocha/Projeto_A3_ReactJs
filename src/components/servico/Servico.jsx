@@ -1,10 +1,10 @@
 import "./servico.css";
-// import moto from "../../assets/moto.png"
-// import petimage from "../../assets/petimage.png";
-// import patas from "../../assets/patas.png";
-// import calendar from "../../assets/calendar.png";
-// import dog from "../../assets/dog.png";
-// import medico from "../../assets/medico.png";
+import moto from "../../assets/images/moto.png"
+import petimage from "../../assets/images/petimage.png";
+import patas from "../../assets/images/patas.png";
+import calendar from "../../assets/images/calendar.png";
+import dog from "../../assets/images/dog.png";
+import medico from "../../assets/images/medico.png";
 import Header from "../../pages/Header"
 
 function Servico() {
@@ -15,12 +15,12 @@ function Servico() {
         <section className="sectionUm_">
           <div className="textoImagemSectionUm_">
             <h1>PET DELIVERY</h1>
-            {/* <img src={moto} alt="Imagem de um motoboy" /> */}
+            <img src={moto} alt="Imagem de um motoboy" />
           </div>
 
           <section className="sectionFinalUm">
             <div className="imagemSectionUm">
-              {/* <img src={petimage} alt="Imagem de um cachorro" /> */}
+              <img src={petimage} alt="Imagem de um cachorro" />
             </div>
 
             <div>
@@ -52,7 +52,7 @@ function Servico() {
 
         <div className="sectionDoisCentro">
           <h1>AGENDAMENTO</h1>
-          {/* <img src={patas} alt="Patas" /> */}
+          <img src={patas} alt="Patas" />
           <button><h1>AGENDAR</h1></button>
         </div>
 
@@ -75,12 +75,12 @@ function Servico() {
         <section className="sectionUm_">
           <div className="textoImagemSectionUm_">
             <h1>AGENDAMENTO DE CONSULTAS</h1>
-            {/* <img src={calendar} alt="Imagem de um calendário" /> */}
+            <img src={calendar} alt="Imagem de um calendário" />
           </div>
 
           <section className="sectionFinalUm">
             <div className="imagemSectionUm">
-              {/* <img src={dog} alt="Imagem de um cachorro" /> */}
+              <img src={dog} alt="Imagem de um cachorro" />
             </div>
 
             <div className="textoSectionFinalUm">
@@ -118,10 +118,15 @@ function Servico() {
         </div>
 
         <div className="sectionDoisLadoDD">
-          {/* <img src={medico} alt="Imagem de um médico com um cachorro" /> */}
+          <img src={medico} alt="Imagem de um médico com um cachorro" />
           <input type="text" />
         </div>
       </section>
+
+
+
+
+      
     </div>
   );
 }

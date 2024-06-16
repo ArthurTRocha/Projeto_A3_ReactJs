@@ -14,7 +14,7 @@ const SectionDesconto = () => (
         e serviços! aproveite as vantagens de ser nosso cliente cadastrado hoje mesmo.
       </p>
       <div className="boxButton">
-        <button className="buttonSaibaAqui">Saiba Aqui</button>
+        <button className="buttonSaibaAqui"><a href="/login">Saiba Aqui</a></button>
       </div>
     </div>
   </section>
