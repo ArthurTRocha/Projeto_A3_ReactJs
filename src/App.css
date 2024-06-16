@@ -275,8 +275,6 @@ nav li.checked1::after{
 }
 
 .itemMosaico2{
-  position: relative;
-  padding: 40px;
   width: 40%;
   background: linear-gradient(180deg, #FA9C05 0%, #FFC400 100%);
 }
@@ -298,30 +296,13 @@ nav li.checked1::after{
 }
 
 .itemMosaico2 li{
-  position: absolute;
   list-style: none;
-  width: 133px;
   font-size: 24px;
   font-weight: none;
+  text-align: center;
+  margin-top: 10%;
 }
 
-.SaibaAqui{
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 350px;
-}
-
-.SaibaAqui2{
-  position: absolute;
-  margin-top: 60px;
-  margin-left: 350px;
-}
-
-.SaibaAqui3{
-  position: absolute;
-  margin-top: 130px;
-  margin-left: 350px;
-}
 
 .imgBlur{
   background-repeat: no-repeat;
